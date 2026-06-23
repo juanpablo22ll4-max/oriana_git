@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moños para Niñas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+    <h1>Moños para Niñas 🎀</h1>
+    <p>Diseños suaves y hermosos para bebés y princesas.</p>
+
+    <button onclick="scrollToProducts()">Ver colección</button>
+</header>
+
+<!-- OFERTAS -->
+<section class="offers">
+    <h2>💖 Ofertas y Combos</h2>
+
+    <div class="offer-box">
+        <h3>Combo Princesa</h3>
+        <p>3 moños por $8 USD</p>
+    </div>
+
+    <div class="offer-box">
+        <h3>Combo Baby Pack</h3>
+        <p>5 moños por $12 USD</p>
+    </div>
+
+    <div class="offer-box">
+        <h3>Oferta Especial</h3>
+        <p>Compra 2 y el 3ro a mitad de precio</p>
+    </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="products">
+
+    <div class="card">
+        <img src="https://i.etsystatic.com/32111863/r/il/17187b/8177271875/il_1588xN.8177271875_gm6e.jpg" alt="">
+        <h3>Moño Rosa Baby</h3>
+        <p class="price">$3 USD</p>
+        <button onclick="buy('Moño Rosa Baby')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.etsystatic.com/32111863/r/il/954171/8177575205/il_1000x1000.8177575205_dnno.jpg" alt="">
+        <h3>Moño Blanco Dulce</h3>
+        <p class="price">$5 USD</p>
+        <button onclick="buy('Moño Blanco Dulce')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.etsystatic.com/32111863/r/il/45083e/8157963006/il_800x800.8157963006_rwvv.jpg" alt="">
+        <h3>Moño Lavanda Cute</h3>
+        <p class="price">$4 USD</p>
+        <button onclick="buy('Moño Lavanda Cute')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t51.75761-15/494799113_18407406874102527_2461531837069891746_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qUbFDaia_XMQ7kNvwGev24a&_nc_oc=AdoQNcRkEq1oDFlaUJ_UD5evPrqXoq56C2mXVvkJzlhQSsPU8wwgNVo43GwNRV2UHvQ6M8kfjro76f5A8Mj58FXE&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=CUAAlfvTiAQryDfJFoRSfQ&_nc_ss=7b2a8&oh=00_Af8GMROq8xJLWmAt88OLbxvq-0WF2b1k49j-FWMWell7XA&oe=6A3F887E" alt="">
+        <h3>Moño Elegante Bebé</h3>
+        <p class="price">$3 USD</p>
+        <button onclick="buy('Moño Elegante Bebé')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://scontent-ord5-3.xx.fbcdn.net/v/t1.6435-9/98097113_238598320900531_7100157470928011264_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TxwdQ5ENJVsQ7kNvwEFgkjJ&_nc_oc=Adox61jbat7UFP_0Z3NSToSy6IXUKXulVR3XeU4hRVkHga9uuyzWjlLE0wpraLEPftke0AUiZ7o61fw55f1P2Zl8&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=n2qIgV-PEb98dVsR7l5Aag&_nc_ss=7b2a8&oh=00_Af9Aaamx91PqEwhGILw5kmihqyWVx5vTlYwmCvtJx_JX8Q&oe=6A61280A" alt="">
+        <h3>Moño Pastel Soft</h3>
+        <p class="price">$5 USD</p>
+        <button onclick="buy('Moño Pastel Soft')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://scontent-ord5-3.xx.fbcdn.net/v/t1.6435-9/87481439_175720930521604_3070558706451087360_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=107&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=ecWBi9ozp-gQ7kNvwEhbA3h&_nc_oc=Adq-tl-Dvb5Ucdz4DvvtqY-uzyGowpQ2TnUCIbq7L3t588y3ns4e-iGQ9XvdmX3AdUNl_3zyxZq6GzhkPWxXFomC&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=roPBXSG_XdMl3xxAy66t6g&_nc_ss=7b2a8&oh=00_Af-qSFTJ_a3UR033oJWyXIglqEyRrgawIVXQ79cBn3o5Zw&oe=6A614A40" alt="">
+        <h3>Moño Princesa Gold</h3>
+        <p class="price">$4 USD</p>
+        <button onclick="buy('Moño Princesa Gold')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/719302430_18474289162102527_6820332883195831057_n.jpg?stp=dst-jpg_tt6&cstp=mx896x896&ctp=s896x896&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xmIE8y34igAQ7kNvwF8OmkH&_nc_oc=AdrW_S_4H1wZhrFBk03ouYr9D1X4bWDZ1GWM490Ea_Mb_SVCqpxzzSyNw9Sr_c7h6v054C0qIcpPI9UEXUMYhVSV&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=jNyJX8sIgXtCmehjg41BdA&_nc_ss=7b2a8&oh=00_Af98xav_mvQpN6n4IhesABVHr5EiR9j8dv2l3_tzHwuwhA&oe=6A3F9985" alt="">
+        <h3>Moño Rosado Sweet</h3>
+        <p class="price">$3 USD</p>
+        <button onclick="buy('Moño Rosado Sweet')">Agregar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t51.75761-15/497567136_18409014796102527_8759502614087193973_n.jpg?stp=dst-jpegr_tt6&cstp=mx1440x1800&ctp=s1440x1800&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5qjBY3t7II8Q7kNvwGE58cU&_nc_oc=AdrJzWtV3BnrY3d8GwV7iKXHdVUIIcaWQZ39bhvlX8jRVI7GUmASc2Gyr8LAgFXm8LECzrmvztAsGaGwLMZQ_R7-&_nc_zt=23&se=-1&_nc_ht=scontent-ord5-1.xx&_nc_gid=DheJSeCMWjl7nUsQABZL5w&_nc_ss=7b2a8&oh=00_Af-h2Gi5JVBm0iLB0siWCe49J3dEMnoNvQ-ebCAL0DpKPg&oe=6A3F87CC" alt="">
+        <h3>Moño Baby Lux</h3>
+        <p class="price">$5 USD</p>
+        <button onclick="buy('Moño Baby Lux')">Agregar</button>
+    </div>
+
+</section>
+
+
+
+<!-- CARRITO LATERAL -->
+
+    <h3> Tu pedido</h3>
+
+    <div id="cartItems"></div>
+
+<button class="cart-whatsapp" onclick="sendCartToWhatsApp()">
+🛒 Pagar por WhatsApp
+</button>
+
+</div>
+
+<!-- BOTÓN PARA ABRIR CARRITO -->
+
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" 
+href="https://wa.me/16308194415?text=Hola%20quiero%20comprar%20moños%20para%20niña" 
+target="_blank">
+
+</a>
+
+
+    <div class="socials">
+
+        <a href="#" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+        </a>
+
+        <a href="#" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+
+        <a href="#" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok">
+        </a>
+
+    </div>
+
+
+<div id="popup" class="popup"></div>
+
+<script src="Java.js"></script>
+
+<footer class="footer">
+
+
+    <p class="copy">© 2026 Moños para Niñas. Todos los derechos reservados.</p>
+
+</footer>
+</body>
+</html>
